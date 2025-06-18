@@ -1,0 +1,14 @@
+# Configuración XGBoost para datos anonimizados
+xgboost:
+  n_estimators: 100
+  max_depth: 6
+  learning_rate: 0.1
+  subsample: 0.8
+  colsample_bytree: 0.8
+  random_state: 42
+
+# Configuración de anonimización
+anonymization:
+  k_anonymity: 10
+  l_diversity: 2
+  epsilon: 2.0
